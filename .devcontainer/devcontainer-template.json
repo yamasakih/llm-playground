@@ -1,0 +1,45 @@
+{
+	"name": "${localWorkspaceFolderBasename}",
+	"build": {
+		"dockerfile": "../Dockerfile"
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"terminal.integrated.profiles.linux": {
+					"zsh": {
+						"path": "/usr/bin/zsh",
+						"args": [
+							"-l"
+						]
+					}
+				}
+			},
+			"extensions": [
+				"arcticicestudio.nord-visual-studio-code",
+				"mhutchie.git-graph",
+				"donjayamanne.githistory",
+				"eamodio.gitlens",
+				"GitHub.vscode-pull-request-github",
+				"ms-azuretools.vscode-docker",
+				"ms-python.python",
+				"ms-python.vscode-pylance",
+				"njpwerner.autodocstring",
+				"MS-CEINTL.vscode-language-pack-ja",
+				"ionutvmi.path-autocomplete",
+				"johnpapa.vscode-peacock",
+				"PKief.material-icon-theme",
+				"mechatroner.rainbow-csv",
+				"mosapride.zenkaku",
+				"GrapeCity.gc-excelviewer",
+				"ms-vscode-remote.remote-containers",
+				"msrvida.vscode-sanddance",
+				"oderwat.indent-rainbow",
+				"rid9.datetime",
+				"shardulm94.trailing-spaces",
+				"usernamehw.errorlens",
+				"GitHub.copilot"
+			]
+		}
+	}
+}
