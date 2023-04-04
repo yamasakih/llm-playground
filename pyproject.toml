@@ -10,6 +10,7 @@ packages = [{include = "llm_playground"}]
 python = "^3.11"
 openai = "^0.27.3"
 langchain = "^0.0.130"
+rdkit = "^2022.9.5"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.1.1"
